@@ -1,0 +1,22 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/template.d3dbsp
+gfx_map,maps/zm/template.d3dbsp
+
+// Audio
+sound,template
+
+scriptparsetree,scripts/zm/template.gsc
+scriptparsetree,scripts/zm/template.csc
+
+// GSC's
+// more gsc's here
+
+	
+// Makes it Read Custom Weapons File in Map Folder	
+stringtable,gamedata/weapons/zm/zm_levelcommon_weapons.csv
